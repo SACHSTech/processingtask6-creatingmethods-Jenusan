@@ -85,7 +85,7 @@ public class Sketch extends PApplet {
     rocket(600, 360, 80, 0, 102, 0);
     rocket(100, 300, 40, 0, 102, 255);
 
-    // calls method for rocket (max value of 150)
+    // calls method for rocket to find optimal equal X and Y position to place in middle of screen (max value of 150)
     windowPosition(80);
 
   }
